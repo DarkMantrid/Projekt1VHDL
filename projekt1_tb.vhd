@@ -22,7 +22,7 @@ architecture behaviour of projekt1_tb is
 signal a, b, c, d, x, y, z: std_logic := '0';
 begin
 
-   vhdl_exercise2_sim: entity work.projekt1
+   projekt1_sim: entity work.projekt1
    port map(a, b, c, d, x, y, z);
    
    SIM_PROCESS: process is
